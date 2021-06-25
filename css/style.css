@@ -1,0 +1,29 @@
+/* Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+header .palevioletred {
+    height: 50px;
+    background-color: palevioletred;
+    margin-bottom: 20px;
+}
+
+header .orange {
+    height: 250px;
+    background-color: orange;
+}
+
