@@ -5,14 +5,14 @@
     box-sizing: border-box;
 }
 
-.clearfix {
+.clearfix::after {
     display: table;
     content: "";
     clear: both;
 }
 
 .container {
-    width: 80%;
+    width: 60%;
     margin: 20px auto;
 }
 
@@ -25,5 +25,34 @@ header .palevioletred {
 header .orange {
     height: 250px;
     background-color: orange;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+main .row-1 {
+    height: 50px;
+    background-color: skyblue;
+}
+
+main .content{
+    background-color: royalblue;
+}
+
+main .col {
+    float: left;
+    height: 200px;
+    background-color: skyblue;
+}
+
+.w-25 {
+    width: 25%;
+    margin: 15px 0px;
+}
+
+.w-50 {
+    margin: 15px 10px;
+    width: calc(50% - (10px * 2) );
 }
 
