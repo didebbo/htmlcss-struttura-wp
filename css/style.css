@@ -36,6 +36,9 @@ main .row-1 {
     background-color: skyblue;
 }
 
+main {
+  margin-bottom: 20px;  
+}
 main .content{
     background-color: royalblue;
 }
@@ -56,3 +59,7 @@ main .col {
     width: calc(50% - (10px * 2) );
 }
 
+footer {
+    height: 50px;
+    background-color: slateblue;
+}
